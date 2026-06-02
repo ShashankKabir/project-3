@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-left">
+      <div class="brand">netflix</div>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#tvshows">TV Shows</a>
+        <a href="#movies">Movies</a>
+        <a href="#latest">Latest</a>
+        <a href="#mylist">My List</a>
+      </nav>
+    </div>
+    <button class="btn btn-signin">Sign In</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shot"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-copy">
+        <span class="eyebrow">New season</span>
+        <h1>Stranger Things</h1>
+        <p>One last summer. One final battle. The Upside Down returns with more mystery, terror, and heart.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" id="heroPlay">Play</button>
+          <button class="btn btn-secondary">My List</button>
+        </div>
+        <div class="hero-meta">
+          <span>2026</span>
+          <span>TV-14</span>
+          <span>3 Seasons</span>
+          <span>Supernatural Drama</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="row-section" id="tvshows">
+      <div class="row-header">
+        <h2>Trending Now</h2>
+        <a href="#">See all</a>
+      </div>
+      <div class="tile-row">
+        <article class="tile tile-large">Stranger Things</article>
+        <article class="tile">The Witcher</article>
+        <article class="tile">Bridgerton</article>
+        <article class="tile">Squid Game</article>
+        <article class="tile">You</article>
+      </div>
+    </section>
+
+    <section class="row-section" id="movies">
+      <div class="row-header">
+        <h2>Popular on Netflix</h2>
+        <a href="#">Browse all</a>
+      </div>
+      <div class="tile-row">
+        <article class="tile">Glass Onion</article>
+        <article class="tile">Red Notice</article>
+        <article class="tile">The Gray Man</article>
+        <article class="tile">Extraction 2</article>
+        <article class="tile">Enola Holmes</article>
+      </div>
+    </section>
+
+    <section class="row-section" id="latest">
+      <div class="row-header">
+        <h2>New Releases</h2>
+        <a href="#">Explore</a>
+      </div>
+      <div class="tile-row">
+        <article class="tile">The Crown</article>
+        <article class="tile">1899</article>
+        <article class="tile">Archive 81</article>
+        <article class="tile">The Sandman</article>
+        <article class="tile">Red Notice</article>
+      </div>
+    </section>
+
+    <section class="row-section photo-section" id="photos">
+      <div class="row-header">
+        <h2>Photo Gallery</h2>
+        <a href="#">See all photos</a>
+      </div>
+      <div class="photo-grid">
+        <article class="photo-card" style="background-image: url('https://images.unsplash.com/photo-1517602302552-471fe67acf66?auto=format&fit=crop&w=900&q=80');">
+          <span>Hit Show Preview</span>
+        </article>
+        <article class="photo-card" style="background-image: url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80');">
+          <span>Behind the Scenes</span>
+        </article>
+        <article class="photo-card" style="background-image: url('https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=900&q=80');">
+          <span>Character Portrait</span>
+        </article>
+        <article class="photo-card" style="background-image: url('https://images.unsplash.com/photo-1497294815431-9365093b7331?auto=format&fit=crop&w=900&q=80');">
+          <span>Series Atmosphere</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="row-section" id="mylist">
+      <div class="row-header">
+        <h2>My List</h2>
+      </div>
+      <div class="tile-row">
+        <article class="tile">Narcos</article>
+        <article class="tile">Money Heist</article>
+        <article class="tile">Lucifer</article>
+        <article class="tile">Dark</article>
+        <article class="tile">Ozark</article>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
